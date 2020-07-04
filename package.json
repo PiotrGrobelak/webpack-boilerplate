@@ -1,0 +1,21 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack boilerplate",
+  "main": "y",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "webpack",
+    "webpack4",
+    "eslint",
+    "sass"
+  ],
+  "author": "Piotr Grobelak",
+  "license": "MIT"
+}
