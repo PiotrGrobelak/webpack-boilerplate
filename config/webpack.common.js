@@ -36,7 +36,6 @@ module.exports = {
             }, {
                 loader: 'image-webpack-loader'
             }]
-
         },
         ]
     },

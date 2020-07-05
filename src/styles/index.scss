@@ -1,0 +1,13 @@
+@import './variables';
+
+
+body{
+    background-color: $bgc;
+    color: $fontColor;
+}
+
+.image{
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
