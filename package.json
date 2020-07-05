@@ -6,9 +6,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./config/webpack.dev.js",
-    "build": "webpack --config config/webpack.prod.js",
-    "test": "test"
+    "start": "NODE_ENV=development webpack-dev-server --config ./config/webpack.dev.js",
+    "build": "NODE_ENV=production webpack --config config/webpack.prod.js"
   },
   "keywords": [
     "webpack",
@@ -40,5 +39,8 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

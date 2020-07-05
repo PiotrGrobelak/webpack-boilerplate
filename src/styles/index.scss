@@ -1,13 +1,29 @@
+@import "~normalize.css";
 @import './variables';
 
 
-body{
+body {
     background-color: $bgc;
     color: $fontColor;
+    font-family: 'Roboto', sans-serif;
 }
 
-.image{
-    height: 300px;
+.container {
+    height: 100vh;
     width: 100%;
-    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__heading {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    &__image {
+        height: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
 }

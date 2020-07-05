@@ -1,4 +1,5 @@
 const merge = require('webpack-merge')
+const webpack = require('webpack')
 const paths = require('./paths')
 const common = require('./webpack.common.js')
 
@@ -7,7 +8,12 @@ module.exports = merge(common, {
     devtool: 'source-map',
     devServer: {
         port: 2020,
-        contentBase: paths.build
+        hot: true,
+        watchContentBase: true,
+        stats: {
+            children: false,
+            maxModules: 0
+        },
     },
     module: {
         rules: [{
@@ -41,5 +47,8 @@ module.exports = merge(common, {
                 ],
             },
         ]
-    }
+    },
+    plugins: [
+        new webpack.HotModuleReplacementPlugin(),
+    ]
 })

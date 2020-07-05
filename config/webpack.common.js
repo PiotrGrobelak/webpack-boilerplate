@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         path: paths.build,
-        filename: '[name].[contenthash:6].js',
+        filename: '[name].[hash:6].js',
     },
     module: {
         rules: [{
