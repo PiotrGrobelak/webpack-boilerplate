@@ -9,9 +9,12 @@ module.exports = merge(common, {
     devServer: {
         port: 2020,
         hot: true,
+        host: '0.0.0.0',
+        disableHostCheck: true,
         watchContentBase: true,
         stats: {
             children: false,
+            colors: true,
             maxModules: 0
         },
     },

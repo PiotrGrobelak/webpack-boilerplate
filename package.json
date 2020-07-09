@@ -7,7 +7,8 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --config ./config/webpack.dev.js",
-    "build": "NODE_ENV=production webpack --config config/webpack.prod.js"
+    "build": "NODE_ENV=production webpack --config config/webpack.prod.js",
+    "serve": "npm run build && cd build && serve ."
   },
   "keywords": [
     "webpack",
