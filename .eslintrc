@@ -19,6 +19,6 @@
         "no-unused-expressions": ["error", {
             "allowShortCircuit": true
         }],
-        "no-console": 1
+        "no-console": 0
     }
 }
