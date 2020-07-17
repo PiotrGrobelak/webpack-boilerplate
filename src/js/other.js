@@ -1,1 +1,1 @@
-export const greetings = () => 'Other js file is working';
+export const greetings = () => 'Build your application easier';

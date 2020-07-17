@@ -30,9 +30,14 @@ body {
     align-items: center;
 
     &__heading {
-        font-size: 4.4rem;
+        margin-top: 0;
+        font-size: 5.4rem;
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+
+        @media (max-width: 448px) {
+            font-size: 4.4rem;
+        }
     }
 
     &__image {

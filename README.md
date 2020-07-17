@@ -10,10 +10,12 @@ Simple Webpack boilerplate with Babel, Sass, PWA, Eslint(airbnb-base), Prettier,
 - Babel
 - Sass
 - PostCSS
-- Eslint
-- Prettier
 - Open Graph
 - PWA
+- Hot Module Replacement
+- Eslint
+- Prettier
+- Husky/Lint-staged
 
 ### :hammer: Instalation:
 
@@ -24,32 +26,36 @@ git clone https://github.com/PiotrGrobelak/webpack-boilerplate
 npm install
 ```
 
-#### :wrench: Development server
+### :wrench: Development server
 ```bash
 npm start
 ```
-View at ```http://localhost:2020/```
+View at server: ```http://localhost:2020/```
 
-#### :nut_and_bolt: Production build
+### :nut_and_bolt: Production build
 ```bash
 npm run build
 ```
 
-#### :triangular_ruler: If you want check static version:
+### :triangular_ruler: If you want check static version before deploy for production:
 
 Install globally serve packeage
+
 ```bash
 npm install -g serve
 ```
 Next
+
 ```bash
 npm run serve
 ```
-View at ```http://localhost:5000```
+
+View at server: ```http://localhost:5000```
 
 
 ## :boy: Author
--  [Piotr Grobelak](https://grobelakpiotr.pl/)
+[Piotr Grobelak](https://grobelakpiotr.pl/)
 
 ## :earth_americas: License
-This project is open source and available under the MIT License.
+
+This project is open source and available under the [MIT License](LICENSE).
